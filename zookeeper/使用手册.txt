@@ -1,0 +1,12 @@
+#下载软件
+#解压
+#根目录建立data和log文件夹
+#配置文件修改
+#zoo_sample.cfg复制一份为zoo.zfg然后修改
+(E:\JavaSoft\zookeeper\zookeeper-3.4.8\conf\zoo.cfg）
+dataDir=E:\\JavaSoft\\zookeeper\\data
+
+dataLogDir=E:\\JavaSoft\\zookeeper\\log
+
+#运行
+E:\JavaSoft\zookeeper\zookeeper-3.4.8\bin>zkServer.cmd
